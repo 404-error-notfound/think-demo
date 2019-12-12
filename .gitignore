@@ -5,4 +5,5 @@
 /composer.lock
 *.log
 .env
+.idea
 composer.lock

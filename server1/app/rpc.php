@@ -26,27 +26,12 @@ interface SuframeInterface
 	 * @throws \Exception
 	 */
 	public function register($data): string;
-}
 
-
-namespace rpc\contract\goods;
-
-interface GoodsInterface
-{
-	const RPC = 'goods';
-
-	public function get($name);
-}
-
-interface SuframeInterface
-{
-	const RPC = 'goods';
 
 	/**
-	 * 注册
-	 * @param $data
+	 * 通知更新
+	 * @param $clients
 	 * @return string
-	 * @throws \Exception
 	 */
-	public function register($data): string;
+	public function notify($clients): bool;
 }
