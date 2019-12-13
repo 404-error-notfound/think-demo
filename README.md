@@ -1,4 +1,5 @@
 # think-demo
+https://github.com/suframe/think 的demo快速体验项目
 开发交流QQ群：647344518   [立即加群](http://shang.qq.com/wpa/qunwpa?idkey=83a58116f995c9f83af6dc2b4ea372e38397349c8f1973d8c9827e4ae4d9f50e)
 
 ## 使用
