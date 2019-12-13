@@ -6,7 +6,7 @@ class NewsService implements interfaces\NewsInterface
 
     function get($name)
     {
-        return 'hello ' . $name . ', i am goods';
+        return 'hello ' . $name . ', i am news';
     }
 
 }

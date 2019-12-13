@@ -33,7 +33,7 @@ interface SuframeInterface
 	 * @param $data
 	 * @return bool
 	 */
-	public function notify($data): bool;
+	public function notify($data): string;
 }
 
 
@@ -64,5 +64,5 @@ interface SuframeInterface
 	 * @param $data
 	 * @return bool
 	 */
-	public function notify($data): bool;
+	public function notify($data): string;
 }
