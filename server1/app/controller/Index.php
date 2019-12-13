@@ -2,7 +2,7 @@
 namespace app\controller;
 
 use app\BaseController;
-use app\rpc\interfaces\GoodsInterface;
+use rpc\contract\goods\GoodsInterface;
 
 class Index extends BaseController
 {
@@ -16,8 +16,8 @@ class Index extends BaseController
         return 'hello,' . $name;
     }
 
-    public function rpctest(GoodsInterface $news)
+    public function rpctest(GoodsInterface $goods)
     {
-        return $news->get('news');
+        return $goods->get('news');
     }
 }

@@ -30,8 +30,39 @@ interface SuframeInterface
 
 	/**
 	 * 通知更新
-	 * @param $clients
-	 * @return string
+	 * @param $data
+	 * @return bool
 	 */
-	public function notify($clients): bool;
+	public function notify($data): bool;
+}
+
+
+namespace rpc\contract\goods;
+
+interface GoodsInterface
+{
+	const RPC = 'goods';
+
+	public function get($name);
+}
+
+interface SuframeInterface
+{
+	const RPC = 'goods';
+
+	/**
+	 * 注册
+	 * @param $data
+	 * @return string
+	 * @throws \Exception
+	 */
+	public function register($data): string;
+
+
+	/**
+	 * 通知更新
+	 * @param $data
+	 * @return bool
+	 */
+	public function notify($data): bool;
 }
