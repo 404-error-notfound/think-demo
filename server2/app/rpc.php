@@ -42,25 +42,18 @@ interface SuframeInterface
 }
 
 
-namespace rpc\contract\goods;
+namespace rpc\contract\news;
 
-interface GoodsInterface
+interface NewsInterface
 {
-	const RPC = 'goods';
-
-	public function get($name);
-}
-
-interface DemoInterface
-{
-	const RPC = 'goods';
+	const RPC = 'news';
 
 	public function get($name);
 }
 
 interface SuframeInterface
 {
-	const RPC = 'goods';
+	const RPC = 'news';
 
 	/**
 	 * 注册
@@ -80,18 +73,25 @@ interface SuframeInterface
 }
 
 
-namespace rpc\contract\news;
+namespace rpc\contract\goods;
 
-interface NewsInterface
+interface GoodsInterface
 {
-	const RPC = 'news';
+	const RPC = 'goods';
+
+	public function get($name);
+}
+
+interface DemoInterface
+{
+	const RPC = 'goods';
 
 	public function get($name);
 }
 
 interface SuframeInterface
 {
-	const RPC = 'news';
+	const RPC = 'goods';
 
 	/**
 	 * 注册

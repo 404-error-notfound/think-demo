@@ -584,12 +584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/suframe/think.git",
-                "reference": "88a161c4aac34f53c0cc056eae00af08ea0d9b69"
+                "reference": "27122fac6d565e5be843b9689887abd6b033c4e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/suframe/think/zipball/88a161c4aac34f53c0cc056eae00af08ea0d9b69",
-                "reference": "88a161c4aac34f53c0cc056eae00af08ea0d9b69",
+                "url": "https://api.github.com/repos/suframe/think/zipball/27122fac6d565e5be843b9689887abd6b033c4e9",
+                "reference": "27122fac6d565e5be843b9689887abd6b033c4e9",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -632,7 +632,7 @@
                 }
             ],
             "description": "suframe thinkphp 6 extension",
-            "time": "2019-12-16T08:10:23+00:00"
+            "time": "2019-12-16T08:13:22+00:00"
         },
         {
             "name": "swoole/ide-helper",
