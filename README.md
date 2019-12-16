@@ -39,6 +39,8 @@ return [
 http://127.0.0.1:8090/apis/goods/hello/my
 http://127.0.0.1:8090/apis/goods/hello/my
 
+接下来你就可以在nginx里面把你的api地址绑定到8090端口即可，其他端口不对外公开
+
 ## 后续：
 有兴趣的朋友可以多件几个项目 放在不同机器上测试
 
