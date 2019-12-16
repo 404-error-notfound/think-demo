@@ -3,5 +3,7 @@
 /vendor
 /server1/config/suframeRpcClient.php
 /server2/config/suframeRpcClient.php
+/server1/composer.lock
+/server2/composer.lock
 *.log
 .env
