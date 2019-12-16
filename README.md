@@ -26,6 +26,19 @@ server2: http://127.0.0.1:8095/index/rpctest
 
 你可以尝试自己建个项目，从创建接口， 用其他server进行调用。
 
+# api网关
+服务拆分后，api分布比较散，需要统一对外暴露地址
+打开app/middleware.php文件，增加
+```
+return [
+    \suframe\think\middlewares\Gateway::class
+    ...
+]
+```
+访问：(网关端口和地址目前是你用于注册rpc的地址)
+http://127.0.0.1:8090/apis/goods/hello/my
+http://127.0.0.1:8090/apis/goods/hello/my
+
 ## 后续：
 有兴趣的朋友可以多件几个项目 放在不同机器上测试
 

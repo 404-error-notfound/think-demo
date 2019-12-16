@@ -54,7 +54,8 @@ return [
             'enable'   => true,
             'port'     => 8096,
             'services' => [
-                \app\rpc\GoodsService::class
+                \app\rpc\GoodsService::class,
+                \app\rpc\DemoService::class
             ],
         ],
         'client' => include (__DIR__ . '/suframeRpcClient.php'),

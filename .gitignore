@@ -1,5 +1,7 @@
 /.idea
 /.vscode
 /vendor
+/server1/config/suframeRpcClient.php
+/server2/config/suframeRpcClient.php
 *.log
 .env

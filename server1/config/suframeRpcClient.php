@@ -1,12 +1,12 @@
 <?php
 return array (
-  'news' => 
+  'user' => 
   array (
-    'path' => '/news',
-    'name' => 'news',
+    'path' => '/user',
+    'name' => 'user',
     'host' => '127.0.0.1',
-    'apiPort' => '8090',
-    'port' => '8091',
+    'apiPort' => '8081',
+    'port' => '9009',
   ),
   'goods' => 
   array (
@@ -15,5 +15,13 @@ return array (
     'host' => '127.0.0.1',
     'apiPort' => '8095',
     'port' => '8096',
+  ),
+  'news' => 
+  array (
+    'path' => '/news',
+    'name' => 'news',
+    'host' => '127.0.0.1',
+    'apiPort' => '8090',
+    'port' => '8091',
   ),
 );
